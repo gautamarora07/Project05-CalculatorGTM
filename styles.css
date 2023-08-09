@@ -47,8 +47,16 @@ section
 
 .display
 {
-    margin: 0.5rem auto;
-    padding: 0.2rem;
+   margin: 0.5rem auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    
+ word-wrap: break-word;
+ word-break: break-all;
 }
 
 #inp_screen
